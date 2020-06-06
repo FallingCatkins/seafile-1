@@ -3,6 +3,7 @@
 #Author:xiaoz.me
 #Update:2020-06-06
 #######################   END   #######################
+
 #防火墙放行端口
 function chk_firewall() {
 	if [ -e "/etc/sysconfig/iptables" ]
