@@ -1,9 +1,8 @@
 #!/bin/bash
 ################ 一键安装Seafile脚本 ##################
 #Author:xiaoz.me
-#Update:2018-03-09
+#Update:2020-06-06
 #######################   END   #######################
-
 #防火墙放行端口
 function chk_firewall() {
 	if [ -e "/etc/sysconfig/iptables" ]
