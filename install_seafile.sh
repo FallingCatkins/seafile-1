@@ -23,7 +23,7 @@ function chk_firewall() {
 function install_sea() {
 	cd /home/MyCloud
 	#下载安装包7.0.14 64bit
-	wget https://yun.ittel.cn:1443/f/ce111092bc2943c188b4/?dl=1 -O seafile-pro-server_7.0.14_x86-64.tar.gz
+	wget https://download.seafile.com/d/6e5297246c/files/?p=%2Fpro%2Fseafile-pro-server_7.0.14_x86-64.tar.gz
 	#解压
 	tar -zxvf seafile-pro-server_7.0.14_x86-64.tar.gz
 	mkdir installed
